@@ -38,6 +38,16 @@ exports.config = {
       platform: "Windows 10",
       browserName: "MicrosoftEdge",
       version: "latest"
+    },
+    {
+      platform: "macOS Catalina",
+      browserName: "safari",
+      version: "latest"
+    },
+    {
+      platform: "macOS Catalina",
+      browserName: "Chrome",
+      version: "latest"
     }
   ],
 
