@@ -10,9 +10,9 @@ exports.config = {
         }
       ]
     ],
-    user: process.env.LT_USERNAME,
-    key: process.env.LT_ACCESS_KEY,
-    buildName: process.env.LT_BUILD_NAME,
+    user: process.env.LT_USERNAME || "satishumapathi",
+    key: process.env.LT_ACCESS_KEY || "ndeW5tPC3b22DwpTcleeT44Xcdk58kRA8yF1rfA8atgbxMFm0l",
+    buildName: process.env.LT_BUILD_NAME || "Sample",
     specs: ["../tests/specs/integration_test.js"],
     exclude: [],
   

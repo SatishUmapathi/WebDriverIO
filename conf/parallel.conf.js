@@ -10,8 +10,8 @@ exports.config = {
       }
     ]
   ],
-  user: process.env.LT_USERNAME,
-  key: process.env.LT_ACCESS_KEY,
+  user: process.env.LT_USERNAME || "satishumapathi",
+  key: process.env.LT_ACCESS_KEY || "ndeW5tPC3b22DwpTcleeT44Xcdk58kRA8yF1rfA8atgbxMFm0l",
   specs: [
     '../tests/specs/single_test.js'
   ],

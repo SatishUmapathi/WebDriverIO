@@ -35,6 +35,6 @@
     "@wdio/cli": "*",
     "@wdio/local-runner": "*",
     "@wdio/mocha-framework": "*",
-    "wdio-lambdatest-service": "*"
+    "wdio-lambdatest-service": "^3.0.1"
   }
 }
